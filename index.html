@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stablecoin Mint and Circulation Info</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Stablecoin Tools</h1>
+    <h2>Global Tools</h2>
+    <ul>
+        <li><a href="charts/total_circulation_history.html">Total Circulation History</a></li>
+    </ul>
+    <h2>Stablecoin Mint and Circulation Info</h2>
+    <ul>
+        <li><a href="charts/global/BUSD_data.html">BUSD</a></li>
+        <li><a href="charts/global/DAI_data.html">DAI</a></li>
+        <li><a href="charts/global/FRAX_data.html">FRAX</a></li>
+        <li><a href="charts/global/LUSD_data.html">LUSD</a></li>
+        <li><a href="charts/global/MAI_data.html">MAI</a></li>
+        <li><a href="charts/global/MIM_data.html">MIM</a></li>
+        <li><a href="charts/global/TUSD_data.html">TUSD</a></li>
+        <li><a href="charts/global/USDC_data.html">USDC</a></li>
+        <li><a href="charts/global/USDD_data.html">USDD</a></li>
+        <li><a href="charts/global/USDT_data.html">USDT</a></li>
+        <li><a href="charts/global/VST_data.html">VST</a></li>
+    </ul>
+    <h2>Multi-Chain Circulation</h2>
+    <ul>
+        <li><a href="charts/chains/BUSD.html">BUSD</a></li>
+        <li><a href="charts/chains/DAI.html">DAI</a></li>
+        <li><a href="charts/chains/FRAX.html">FRAX</a></li>
+        <li><a href="charts/chains/LUSD.html">LUSD</a></li>
+        <li><a href="charts/chains/MAI.html">MAI</a></li>
+        <li><a href="charts/chains/MIM.html">MIM</a></li>
+        <li><a href="charts/chains/TUSD.html">TUSD</a></li>
+        <li><a href="charts/chains/USDC.html">USDC</a></li>
+        <li><a href="charts/chains/USDD.html">USDD</a></li>
+        <li><a href="charts/chains/USDT.html">USDT</a></li>
+        <li><a href="charts/chains/VST.html">VST</a></li>
+    </ul>
+
+    <!-- Add the Stablecoin Data Table here -->
+    <h2>Stablecoin Data Table</h2>
+    <div>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>name</th>
+      <th>symbol</th>
+      <th>pegType</th>
+      <th>pegMechanism</th>
+      <th>circulating</th>
+      <th>circulatingPrevDay</th>
+      <th>circulatingPrevWeek</th>
+      <th>circulatingPrevMonth</th>
+      <th>price</th>
+      <th>name</th>
+      <th>symbol</th>
+      <th>url</th>
+      <th>description</th>
+      <th>mintRedeemDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Tether</td>
+      <td>USDT</td>
+      <td>peggedUSD</td>
+      <td>fiat-backed</td>
+      <td>83876255947.630</td>
+      <td>83876255948.252</td>
+      <td>83800932182.815</td>
+      <td>83333734068.108</td>
+      <td>0.999</td>
+      <td>Tether</td>
+      <td>USDT</td>
+      <td>https://tether.to/</td>
+      <td>Launched in 2014, Tether tokens pioneered the stablecoin model. Tether tokens are pegged to real-world currencies on a 1-to-1 basis. This offers traders, merchants and funds a low volatility solution when exiting positions in the market.</td>
+      <td>Tether customers who have undergone a verification process can exchange USD for USDT and redeem USDT for USD.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>USD Coin</td>
+      <td>USDC</td>
+      <td>peggedUSD</td>
+      <td>fiat-backed</td>
+      <td>25806040899.256</td>
+      <td>25905746228.947</td>
+      <td>26225861637.489</td>
+      <td>27386256582.920</td>
+      <td>1.000</td>
+      <td>USD Coin</td>
+      <td>USDC</td>
+      <td>https://www.circle.com/usdc/</td>
+      <td>USDC is a fully regulated dollar digital stablecoin launched by Circle and Coinbase. USDC is fully backed by cash and short-dated U.S. government obligations, so that it is always redeemable 1:1 for U.S. dollars.</td>
+      <td>An eligible business can exchange USD for USDC and redeem USDC for USD through a Circle Account.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Binance USD</td>
+      <td>BUSD</td>
+      <td>peggedUSD</td>
+      <td>fiat-backed</td>
+      <td>3519787749.450</td>
+      <td>3620105577.320</td>
+      <td>3781538187.080</td>
+      <td>4143870302.930</td>
+      <td>1.001</td>
+      <td>Dai</td>
+      <td>DAI</td>
+      <td>https://makerdao.com/</td>
+      <td>The Dai stablecoin is a decentralized, unbiased, collateral-backed cryptocurrency soft-pegged to the US Dollar. Dai is held in cryptocurrency wallets or within platforms, and is supported on Ethereum and other popular blockchains.</td>
+      <td>Users mint Dai by depositing accepted collateral assets into Maker Vaults within the Maker Protocol. When the loan is repaid to retrieve the collateral, the paid back Dai is burned.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Dai</td>
+      <td>DAI</td>
+      <td>peggedUSD</td>
+      <td>crypto-backed</td>
+      <td>4055819164.438</td>
+      <td>4091435967.312</td>
+      <td>4177361812.843</td>
+      <td>4339033516.164</td>
+      <td>0.999</td>
+      <td>Frax</td>
+      <td>FRAX</td>
+      <td>https://frax.finance/</td>
+      <td>Frax attempts to be the first stablecoin protocol to implement design principles of both collateralized and algorithmic stablecoins to create a highly scalable, trustless, extremely stable, and ideologically pure on-chain money.</td>
+      <td>Using the Frax Finance app, FRAX can be minted by locking USDC and burning FXS in a proportion determined by the protocol's collateral ratio.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Frax</td>
+      <td>FRAX</td>
+      <td>peggedUSD</td>
+      <td>algorithmic</td>
+      <td>812641409.409</td>
+      <td>812641409.409</td>
+      <td>912641409.409</td>
+      <td>1004141409.409</td>
+      <td>0.998</td>
+      <td>TrueUSD</td>
+      <td>TUSD</td>
+      <td>https://trueusd.com/</td>
+      <td>TrueUSD (TUSD) is an independently-verified digital asset redeemable 1-for-1 for US Dollars.</td>
+      <td>TrueUSD customers who have undergone a verification process can exchange USD for TUSD and redeem TUSD for USD.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>TrueUSD</td>
+      <td>TUSD</td>
+      <td>peggedUSD</td>
+      <td>fiat-backed</td>
+      <td>2934798398.700</td>
+      <td>2934798398.700</td>
+      <td>2777307888.580</td>
+      <td>3007787278.500</td>
+      <td>1.000</td>
+      <td>Liquity USD</td>
+      <td>LUSD</td>
+      <td>https://www.liquity.org/</td>
+      <td>Liquity is a decentralized borrowing protocol that allows you to draw interest-free loans against Ether used as collateral. Loans are paid out in LUSD (a USD pegged stablecoin).</td>
+      <td>Using a Liquity frontend, users mint LUSD by depositing ETH as collateral into a Trove. When the loan is repaid to retrieve the collateral, the paid back LUSD is burned.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Liquity USD</td>
+      <td>LUSD</td>
+      <td>peggedUSD</td>
+      <td>crypto-backed</td>
+      <td>296685603.666</td>
+      <td>296260789.939</td>
+      <td>297451549.162</td>
+      <td>283419072.605</td>
+      <td>0.998</td>
+      <td>Magic Internet Money</td>
+      <td>MIM</td>
+      <td>https://abracadabra.money/</td>
+      <td>Abracadabra.money is a lending platform that uses interest-bearing tokens as collateral to borrow a USD pegged stablecoin (Magic Internet Money - MIM), that can be used as any other traditional stablecoin.</td>
+      <td>Using Abracadabra.money, users mint MIM by depositing interest-bearing tokens as collateral into an Abracadabra cauldron. When the loan is repaid to retrieve the collateral, the paid back MIM is burned.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Magic Internet Money</td>
+      <td>MIM</td>
+      <td>peggedUSD</td>
+      <td>crypto-backed</td>
+      <td>72760473.257</td>
+      <td>71510197.076</td>
+      <td>183209562.789</td>
+      <td>136147725.395</td>
+      <td>0.991</td>
+      <td>MAI</td>
+      <td>MAI</td>
+      <td>https://www.mai.finance/</td>
+      <td>MAI is a USD-pegged stablecoin backed by collateral available on many chains.</td>
+      <td>Using the Mai Finance app, users mint MAI by depositing an accepted collateral asset into a vault. When the loan is repaid to retrieve the collateral, the paid back MAI is burned.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>USDD</td>
+      <td>USDD</td>
+      <td>peggedUSD</td>
+      <td>algorithmic</td>
+      <td>737837020.563</td>
+      <td>737240603.669</td>
+      <td>726191586.332</td>
+      <td>738001718.085</td>
+      <td>0.997</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>MAI</td>
+      <td>MAI</td>
+      <td>peggedUSD</td>
+      <td>crypto-backed</td>
+      <td>15639713.536</td>
+      <td>39901925.003</td>
+      <td>41927977.613</td>
+      <td>53369202.890</td>
+      <td>0.959</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Vesta Stable</td>
+      <td>VST</td>
+      <td>peggedUSD</td>
+      <td>crypto-backed</td>
+      <td>6722885.584</td>
+      <td>6739938.544</td>
+      <td>7241846.789</td>
+      <td>7134439.850</td>
+      <td>0.995</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

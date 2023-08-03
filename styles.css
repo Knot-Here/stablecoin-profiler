@@ -1,0 +1,27 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "• ";
+    color: #FFFF00;
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "name": "BUSD",
+        "issuer": "Binance",
+        "description": "Binance USD",
+        "type": "fiat",
+        "market_cap": "1,000,000,000",
+        "peg_info": {
+            "type": "collateral",
+            "collateral": "USD",
+            "stability_mechanism": "collateral-reserve"
+        },
+        "blockchain": ["BSC", "Ethereum"],
+        "transparency": {
+            "audit_frequency": "Quarterly",
+            "audit_results": "Fully backed by USD reserves"
+        },
+        "legal_status": {
+            "issuer_jurisdiction": "Cayman Islands",
+            "status_by_country": {
+                "USA": "Allowed",
+                "China": "Banned"
+            }
+        },
+        "source_code": {
+            "github": "https://github.com/Binance-DEX/busd-contract",
+            "token_addresses": {
+                "Ethereum": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+                "BSC": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+            }
+        },
+        "oracles": {
+            "Ethereum": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+        }
+    }
+]
