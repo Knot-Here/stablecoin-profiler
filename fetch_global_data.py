@@ -12,8 +12,8 @@ asset_list = ['BUSD', 'DAI', 'FRAX', 'LUSD', 'MIM', 'MAI', 'stETH', 'TUSD', 'USD
 asset_drop = ['USDTz', 'DAI+', 'USDT+', 'ALUSD']
 column_drop = ['gecko_id', 'priceSource']
 
-with open("y2k.png", "rb") as image_file:
-    encoded_string = base64.b64encode(image_file.read()).decode()
+# with open("y2k.png", "rb") as image_file:
+#     encoded_string = base64.b64encode(image_file.read()).decode()
 
 def get_stablecoin_data():
     response = requests.get(url).json()['peggedAssets']
